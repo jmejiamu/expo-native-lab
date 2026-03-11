@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoNativeLabModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.nativelab.ExpoNativeLabModule"]
+  }
+}
