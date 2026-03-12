@@ -20,7 +20,7 @@ public class ExpoNativeLabModule: Module {
 
     // Defines a JavaScript synchronous function that runs the native code on the JavaScript thread.
     Function("hello") {
-      return "Hello world! 👋"
+      return "Hello world! From Swift 👋"
     }
 
     // Defines a JavaScript function that always returns a Promise and whose native code
